@@ -2,7 +2,7 @@ import { Invoice } from './classes/invoice.js';
 import { ListTemplate } from './classes/listtemplate.js';
 import { Paymant } from './classes/paymant.js';
 const form = document.querySelector('.new-item-form');
-// inputs
+
 const type = document.querySelector('#type');
 const tofrom = document.querySelector('#tofrom');
 const details = document.querySelector('#details');
