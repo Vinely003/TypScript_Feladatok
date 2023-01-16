@@ -1,8 +1,5 @@
-//classes
 export class Paymant {
-    // client: string;
-    // details: string;
-    // amount: number;
+
     constructor(recipient, details, amount) {
         this.recipient = recipient;
         this.details = details;
