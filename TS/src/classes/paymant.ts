@@ -1,10 +1,6 @@
 import { HasFormatter } from '../interfaces/hasformatter.js'
 
-//classes
 export class Paymant implements HasFormatter {
-    // client: string;
-    // details: string;
-    // amount: number;
 
     constructor(
         readonly recipient: string,
@@ -13,6 +9,6 @@ export class Paymant implements HasFormatter {
     ) { }
 
     format() {
-        return `${this.recipient} is owes ${this.amount} Ft for ${this.details}`;
+        return `${this.recipient} payed ${this.amount} Ft for ${this.details}`;
     }
 }
